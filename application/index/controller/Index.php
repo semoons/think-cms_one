@@ -23,5 +23,15 @@ class Index extends Controller
         
         return $this->fetch();
     }
+
+    /**
+     * 下载
+     */
+    public function download()
+    {
+        $download_url = Config::get('cms_file');
+        $download_url || $download_url = 'https://github.com/newday-me/think-cms/archive/master.zip';
+        responseRedirect($download_url, [], false);
+    }
 }
  
