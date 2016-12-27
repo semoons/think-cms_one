@@ -1,0 +1,58 @@
+{
+    "name": "newday-me/think-cms",
+    "description": "think cms",
+    "type": "project",
+    "homepage": "http://cms.newday.me/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "哩呵",
+            "email": "newday_me@163.com"
+        }
+    ],
+    "require": {
+        "newday-me/think-cms-manage": "*",
+        "newday-me/think-cms-blog": "*"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/newday-me/framework.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/newday-me/core-lib.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/newday-me/think-cms-installer.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/newday-me/think-cms-framework.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/newday-me/think-cms-public.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/newday-me/think-cms-manage.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/newday-me/think-cms-blog.git"
+        }
+    ],
+    "extra": {
+        "think-path": "thinkphp",
+        "cms-path": "thinkcms", 
+        "application-path": "application",
+        "extend-path": "extend",
+        "public-path": "public"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "dist"
+    }
+}
